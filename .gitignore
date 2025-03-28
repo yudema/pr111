@@ -1,0 +1,29 @@
+# Игнорирование логов
+logs/
+
+# Игнорирование данных MySQL
+mysql-data/
+
+# Игнорирование временных файлов
+*.tmp
+*.log
+*.swp
+.DS_Store
+Thumbs.db
+
+# Игнорирование файлов окружения
+.env
+
+# Игнорирование файлов Bitrix
+bitrix/.settings
+bitrix/cache/
+bitrix/managed_cache/
+bitrix/stack_cache/
+bitrix/updates/
+bitrix/backup/
+bitrix/tmp/
+bitrix/wizards/bitrix/
+bitrix/.access.php
+
+# Игнорирование системных файлов Docker
+.docker/
